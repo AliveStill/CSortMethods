@@ -80,3 +80,5 @@ void quick_sort_ind(int *arr, int num)
 
 #endif
 
+/// @TODO 在递归深度超过2logn时转化为堆排序，在规模小于30时使用选择排序
+/// @time 3/13/2021
