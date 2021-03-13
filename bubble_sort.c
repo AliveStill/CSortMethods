@@ -27,7 +27,7 @@ void bubble_sort(int *arr, int num)
     }
 }
 
-/*该算法有误,有待后续调整*/
+/* FIXME, 该算法有误,有待后续调整*/
 void debubble_sort(int *arr,const int num)
 {
     if ( num <= 1) { return ; }
